@@ -1,7 +1,7 @@
 {
   "versions": [
     {
-      "key": "python3.13-nodejs24",
+      "key": "python3.13-nodejs24-trixie",
       "python": "3.13",
       "python_canonical": "3.13.7",
       "python_image": "3.13.7-trixie",
@@ -14,7 +14,7 @@
       ]
     },
     {
-      "key": "python3.13-nodejs24-bookworm",
+      "key": "python3.13-nodejs24",
       "python": "3.13",
       "python_canonical": "3.13.7",
       "python_image": "3.13.7-bookworm",
@@ -52,7 +52,7 @@
       ]
     },
     {
-      "key": "python3.13-nodejs22",
+      "key": "python3.13-nodejs22-trixie",
       "python": "3.13",
       "python_canonical": "3.13.7",
       "python_image": "3.13.7-trixie",
@@ -65,7 +65,7 @@
       ]
     },
     {
-      "key": "python3.13-nodejs22-bookworm",
+      "key": "python3.13-nodejs22",
       "python": "3.13",
       "python_canonical": "3.13.7",
       "python_image": "3.13.7-bookworm",
@@ -103,7 +103,7 @@
       ]
     },
     {
-      "key": "python3.13-nodejs20",
+      "key": "python3.13-nodejs20-trixie",
       "python": "3.13",
       "python_canonical": "3.13.7",
       "python_image": "3.13.7-trixie",
@@ -116,7 +116,7 @@
       ]
     },
     {
-      "key": "python3.13-nodejs20-bookworm",
+      "key": "python3.13-nodejs20",
       "python": "3.13",
       "python_canonical": "3.13.7",
       "python_image": "3.13.7-bookworm",
@@ -154,7 +154,7 @@
       ]
     },
     {
-      "key": "python3.12-nodejs24",
+      "key": "python3.12-nodejs24-trixie",
       "python": "3.12",
       "python_canonical": "3.12.11",
       "python_image": "3.12.11-trixie",
@@ -167,7 +167,7 @@
       ]
     },
     {
-      "key": "python3.12-nodejs24-bookworm",
+      "key": "python3.12-nodejs24",
       "python": "3.12",
       "python_canonical": "3.12.11",
       "python_image": "3.12.11-bookworm",
@@ -205,7 +205,7 @@
       ]
     },
     {
-      "key": "python3.12-nodejs22",
+      "key": "python3.12-nodejs22-trixie",
       "python": "3.12",
       "python_canonical": "3.12.11",
       "python_image": "3.12.11-trixie",
@@ -218,7 +218,7 @@
       ]
     },
     {
-      "key": "python3.12-nodejs22-bookworm",
+      "key": "python3.12-nodejs22",
       "python": "3.12",
       "python_canonical": "3.12.11",
       "python_image": "3.12.11-bookworm",
@@ -256,7 +256,7 @@
       ]
     },
     {
-      "key": "python3.12-nodejs20",
+      "key": "python3.12-nodejs20-trixie",
       "python": "3.12",
       "python_canonical": "3.12.11",
       "python_image": "3.12.11-trixie",
@@ -269,7 +269,7 @@
       ]
     },
     {
-      "key": "python3.12-nodejs20-bookworm",
+      "key": "python3.12-nodejs20",
       "python": "3.12",
       "python_canonical": "3.12.11",
       "python_image": "3.12.11-bookworm",
@@ -307,7 +307,7 @@
       ]
     },
     {
-      "key": "python3.11-nodejs24",
+      "key": "python3.11-nodejs24-trixie",
       "python": "3.11",
       "python_canonical": "3.11.13",
       "python_image": "3.11.13-trixie",
@@ -320,7 +320,7 @@
       ]
     },
     {
-      "key": "python3.11-nodejs24-bookworm",
+      "key": "python3.11-nodejs24",
       "python": "3.11",
       "python_canonical": "3.11.13",
       "python_image": "3.11.13-bookworm",
@@ -358,7 +358,7 @@
       ]
     },
     {
-      "key": "python3.11-nodejs22",
+      "key": "python3.11-nodejs22-trixie",
       "python": "3.11",
       "python_canonical": "3.11.13",
       "python_image": "3.11.13-trixie",
@@ -371,7 +371,7 @@
       ]
     },
     {
-      "key": "python3.11-nodejs22-bookworm",
+      "key": "python3.11-nodejs22",
       "python": "3.11",
       "python_canonical": "3.11.13",
       "python_image": "3.11.13-bookworm",
@@ -409,7 +409,7 @@
       ]
     },
     {
-      "key": "python3.11-nodejs20",
+      "key": "python3.11-nodejs20-trixie",
       "python": "3.11",
       "python_canonical": "3.11.13",
       "python_image": "3.11.13-trixie",
@@ -422,7 +422,7 @@
       ]
     },
     {
-      "key": "python3.11-nodejs20-bookworm",
+      "key": "python3.11-nodejs20",
       "python": "3.11",
       "python_canonical": "3.11.13",
       "python_image": "3.11.13-bookworm",
@@ -460,7 +460,7 @@
       ]
     },
     {
-      "key": "python3.10-nodejs24",
+      "key": "python3.10-nodejs24-trixie",
       "python": "3.10",
       "python_canonical": "3.10.18",
       "python_image": "3.10.18-trixie",
@@ -473,7 +473,7 @@
       ]
     },
     {
-      "key": "python3.10-nodejs24-bookworm",
+      "key": "python3.10-nodejs24",
       "python": "3.10",
       "python_canonical": "3.10.18",
       "python_image": "3.10.18-bookworm",
@@ -511,7 +511,7 @@
       ]
     },
     {
-      "key": "python3.10-nodejs22",
+      "key": "python3.10-nodejs22-trixie",
       "python": "3.10",
       "python_canonical": "3.10.18",
       "python_image": "3.10.18-trixie",
@@ -524,7 +524,7 @@
       ]
     },
     {
-      "key": "python3.10-nodejs22-bookworm",
+      "key": "python3.10-nodejs22",
       "python": "3.10",
       "python_canonical": "3.10.18",
       "python_image": "3.10.18-bookworm",
@@ -562,7 +562,7 @@
       ]
     },
     {
-      "key": "python3.10-nodejs20",
+      "key": "python3.10-nodejs20-trixie",
       "python": "3.10",
       "python_canonical": "3.10.18",
       "python_image": "3.10.18-trixie",
@@ -575,7 +575,7 @@
       ]
     },
     {
-      "key": "python3.10-nodejs20-bookworm",
+      "key": "python3.10-nodejs20",
       "python": "3.10",
       "python_canonical": "3.10.18",
       "python_image": "3.10.18-bookworm",
@@ -613,7 +613,7 @@
       ]
     },
     {
-      "key": "python3.9-nodejs24",
+      "key": "python3.9-nodejs24-trixie",
       "python": "3.9",
       "python_canonical": "3.9.23",
       "python_image": "3.9.23-trixie",
@@ -626,7 +626,7 @@
       ]
     },
     {
-      "key": "python3.9-nodejs24-bookworm",
+      "key": "python3.9-nodejs24",
       "python": "3.9",
       "python_canonical": "3.9.23",
       "python_image": "3.9.23-bookworm",
@@ -664,7 +664,7 @@
       ]
     },
     {
-      "key": "python3.9-nodejs22",
+      "key": "python3.9-nodejs22-trixie",
       "python": "3.9",
       "python_canonical": "3.9.23",
       "python_image": "3.9.23-trixie",
@@ -677,7 +677,7 @@
       ]
     },
     {
-      "key": "python3.9-nodejs22-bookworm",
+      "key": "python3.9-nodejs22",
       "python": "3.9",
       "python_canonical": "3.9.23",
       "python_image": "3.9.23-bookworm",
@@ -715,7 +715,7 @@
       ]
     },
     {
-      "key": "python3.9-nodejs20",
+      "key": "python3.9-nodejs20-trixie",
       "python": "3.9",
       "python_canonical": "3.9.23",
       "python_image": "3.9.23-trixie",
@@ -728,7 +728,7 @@
       ]
     },
     {
-      "key": "python3.9-nodejs20-bookworm",
+      "key": "python3.9-nodejs20",
       "python": "3.9",
       "python_canonical": "3.9.23",
       "python_image": "3.9.23-bookworm",
