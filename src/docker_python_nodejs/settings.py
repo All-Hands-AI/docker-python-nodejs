@@ -6,5 +6,5 @@ VERSIONS_PATH = BASE_PATH / "versions.json"
 DOCKERFILES_PATH = BASE_PATH / "dockerfiles"
 
 DEFAULT_PLATFORMS = ["linux/amd64", "linux/arm64"]
-DEFAULT_DISTRO = "trixie"
+DEFAULT_DISTRO = "bookworm"
 DISTROS = ["trixie", "bookworm", "slim", "alpine"]
