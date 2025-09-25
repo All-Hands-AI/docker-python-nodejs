@@ -62,7 +62,7 @@ jobs:
           context: .
           file: dockerfiles/${{ matrix.key }}.Dockerfile
           load: true
-          tags: all-hands-ai/python-nodejs:${{ matrix.key }}
+          tags: ghcr.io/all-hands-ai/python-nodejs:${{ matrix.key }}
       - name: Run smoke tests
         run: |
           docker run --rm all-hands-ai/python-nodejs:${{ matrix.key }} sh -c "node --version && npm --version && yarn --version && python --version && pip --version && pipenv --version && poetry --version && uv --version"
@@ -73,7 +73,7 @@ jobs:
           file: dockerfiles/${{ matrix.key }}.Dockerfile
           platforms: ${{ join(matrix.platforms) }}
           push: true
-          tags: all-hands-ai/python-nodejs:${{ matrix.key }}
+          tags: ghcr.io/all-hands-ai/python-nodejs:${{ matrix.key }}
 
   release:
     name: Update versions.json and README.md
