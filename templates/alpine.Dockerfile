@@ -22,7 +22,6 @@ RUN grep " node-v{{ nodejs_canonical }}-linux-x64-musl.tar.xz\$" SHASUMS256.txt 
 RUN tar -xf "node-v{{ nodejs_canonical }}-linux-x64-musl.tar.xz"
 
 FROM python:{{ python_image }}
-LABEL org.opencontainers.image.authors="Nikolai R Kristiansen <nikolaik@gmail.com>"
 
 RUN addgroup -g 1000 pn && adduser -u 1000 -G pn -s /bin/sh -D pn
 RUN apk add libstdc++

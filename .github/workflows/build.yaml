@@ -62,10 +62,10 @@ jobs:
           context: .
           file: dockerfiles/${{ matrix.key }}.Dockerfile
           load: true
-          tags: nikolaik/python-nodejs:${{ matrix.key }}
+          tags: all-hands-ai/python-nodejs:${{ matrix.key }}
       - name: Run smoke tests
         run: |
-          docker run --rm nikolaik/python-nodejs:${{ matrix.key }} sh -c "node --version && npm --version && yarn --version && python --version && pip --version && pipenv --version && poetry --version && uv --version"
+          docker run --rm all-hands-ai/python-nodejs:${{ matrix.key }} sh -c "node --version && npm --version && yarn --version && python --version && pip --version && pipenv --version && poetry --version && uv --version"
       - name: Push image
         uses: docker/build-push-action@263435318d21b8e681c14492fe198d362a7d2c83 # v6
         with:
@@ -73,7 +73,7 @@ jobs:
           file: dockerfiles/${{ matrix.key }}.Dockerfile
           platforms: ${{ join(matrix.platforms) }}
           push: true
-          tags: nikolaik/python-nodejs:${{ matrix.key }}
+          tags: all-hands-ai/python-nodejs:${{ matrix.key }}
 
   release:
     name: Update versions.json and README.md

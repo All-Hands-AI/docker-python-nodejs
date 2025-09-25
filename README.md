@@ -1,7 +1,6 @@
 # 🐳 Python with Node.js
 
-[![Pulls](https://img.shields.io/docker/pulls/nikolaik/python-nodejs.svg?style=flat-square)](https://hub.docker.com/r/nikolaik/python-nodejs/)
-[![CircleCI](https://img.shields.io/circleci/project/github/nikolaik/docker-python-nodejs.svg?style=flat-square)](https://circleci.com/gh/nikolaik/docker-python-nodejs)
+> This is a temporary fork of [nikolaik/docker-python-nodejs](https://github.com/nikolaik/docker-python-nodejs) to make the Debian Trixie upgrade available. Prefer the official nikolaik images if possible.
 
 Last updated by bot: 2025-09-11
 
@@ -117,17 +116,17 @@ Versions are kept up to date using official sources. For Python we scrape the _S
 
 ```bash
 # Pull from Docker Hub
-docker pull nikolaik/python-nodejs:latest
+docker pull all-hands-ai/python-nodejs:latest
 # Build from GitHub
-docker build -t nikolaik/python-nodejs github.com/nikolaik/docker-python-nodejs
+docker build -t all-hands-ai/python-nodejs github.com/All-Hands-AI/docker-python-nodejs
 # Run image
-docker run -it nikolaik/python-nodejs bash
+docker run -it all-hands-ai/python-nodejs bash
 ```
 
 ### Use as base image
 
 ```Dockerfile
-FROM nikolaik/python-nodejs:latest
+FROM all-hands-ai/python-nodejs:latest
 
 USER pn
 WORKDIR /home/pn/app
