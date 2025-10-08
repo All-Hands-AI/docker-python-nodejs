@@ -116,17 +116,17 @@ Versions are kept up to date using official sources. For Python we scrape the _S
 
 ```bash
 # Pull from Docker Hub
-docker pull all-hands-ai/python-nodejs:latest
+docker pull openhands/python-nodejs:latest
 # Build from GitHub
-docker build -t all-hands-ai/python-nodejs github.com/All-Hands-AI/docker-python-nodejs
+docker build -t openhands/python-nodejs github.com/OpenHands/docker-python-nodejs
 # Run image
-docker run -it all-hands-ai/python-nodejs bash
+docker run -it openhands/python-nodejs bash
 ```
 
 ### Use as base image
 
 ```Dockerfile
-FROM all-hands-ai/python-nodejs:latest
+FROM openhands/python-nodejs:latest
 
 USER pn
 WORKDIR /home/pn/app
